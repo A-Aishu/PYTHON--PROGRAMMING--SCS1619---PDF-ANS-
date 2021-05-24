@@ -1,0 +1,12 @@
+import tkinter as tk
+parent = tk.Tk()
+parent.geometry("250x200")
+label1 = tk.Label(parent,text = "A list for shopping..")
+listbox = tk.Listbox(parent)
+listbox.insert(1,"YARDLEY")
+listbox.insert(2, "DAIRY MILK SILK")
+listbox.insert(3, "CLASSMATE NOTE")
+listbox.insert(4, "I PHONE 11")
+label1.pack()
+listbox.pack()
+parent.mainloop()
